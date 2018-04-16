@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com2x3b4p.example.volleyball.Activity_self_jiaolian">
+    <FrameLayout
+        android:scaleType="centerCrop"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+        <ImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/image_back_jiaolian"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <LinearLayout
+            android:background="#00ffffff"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3">
+                <RelativeLayout
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:layout_alignParentBottom="true"
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_height="wrap_content">
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:src="@drawable/home_background"
+                            />
+                        <TextView
+                            android:textColor="#fcf9f9"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center"
+                            android:text="ID:HQZ8576"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:background="#9fbdbdbd"
+                android:orientation="horizontal"
+                android:padding="4dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.8">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:text="00"
+                        android:gravity="center"
+                        android:textColor="#fcf9f9"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:textColor="#fcf9f9"
+                        android:gravity="center"
+                        android:text="队员数"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:textColor="#fcf9f9"
+                        android:text="00"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:textColor="#fcf9f9"
+                        android:gravity="center"
+                        android:text="胜场总数"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:textColor="#fcf9f9"
+                        android:text="99.9%"
+                        android:gravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:textColor="#fcf9f9"
+                        android:gravity="center"
+                        android:text="胜率"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+    <LinearLayout
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:background="#cee002"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+        <LinearLayout
+            android:background="@drawable/shape_anjian"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+                android:background="@drawable/tubiao_ziliao"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+
+            <TextView
+                android:id="@+id/text_jiaolan_xiugai"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:text="修改资料" />
+            <ImageView
+                android:background="@drawable/tubiao_you"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:layout_width="23dp"
+                android:layout_height="23dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/shape_anjian"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+                android:background="@drawable/tubiao_duiyuan"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/text_jiaolan_duiyuan"
+                android:gravity="center_vertical"
+                android:text="我的队员"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:background="@drawable/tubiao_you"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:layout_width="23dp"
+                android:layout_height="23dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/shape_anjian"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+                android:background="@drawable/tubiao_shuju"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/text_jiaolan_shuju"
+                android:gravity="center_vertical"
+                android:text="比赛数据"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:background="@drawable/tubiao_you"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:layout_width="23dp"
+                android:layout_height="23dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/shape_anjian"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+                android:background="@drawable/tubiao_dianhua"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/text_jiaolan_kefu"
+                android:gravity="center_vertical"
+                android:text="联系客服"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:background="@drawable/tubiao_you"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:layout_width="23dp"
+                android:layout_height="23dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

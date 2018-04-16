@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com2x3b4p.example.volleyball.Activity_ChaXun_1">
+    <LinearLayout
+        android:background="@drawable/find_back"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+        <RelativeLayout
+            android:background="#a4ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_centerInParent="true"
+                android:src="@drawable/tubiao_back_find"
+                android:layout_width="100dp"
+                android:layout_height="100dp" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:background="#cee002"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+        <LinearLayout
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shape_anjian"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+                android:background="@drawable/tubiao_find_shijian"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/button_choose_find_1"
+                android:gravity="center_vertical"
+                android:text="按日期查找"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:background="@drawable/tubiao_you"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:layout_width="23dp"
+                android:layout_height="23dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shape_anjian"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+                android:background="@drawable/tubiao_find_bisaimingcheng"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/button_choose_find_2"
+                android:gravity="center_vertical"
+                android:text="按比赛名称查找"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:background="@drawable/tubiao_you"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:layout_width="23dp"
+                android:layout_height="23dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shape_anjian"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+                android:background="@drawable/tubiao_find_xingming"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/button_choose_find_3"
+                android:gravity="center_vertical"
+                android:text="按队员姓名查找"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:background="@drawable/tubiao_you"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:layout_width="23dp"
+                android:layout_height="23dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/shape_anjian"
+            android:layout_marginTop="12dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+            <ImageView
+                android:background="@drawable/tubiao_find_duiyuan"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_gravity="center_vertical"
+                android:layout_width="30dp"
+                android:layout_height="30dp" />
+            <TextView
+                android:id="@+id/button_choose_find_4"
+                android:gravity="center_vertical"
+                android:text="查找队员信息"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+            <ImageView
+                android:background="@drawable/tubiao_you"
+                android:layout_gravity="center_vertical"
+                android:layout_marginRight="10dp"
+                android:layout_width="23dp"
+                android:layout_height="23dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

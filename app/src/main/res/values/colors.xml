@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="anjian_no_press_color">#cee002</color>
+    <color name="anjian_press_color">#ffffff</color>
+    <color name="guangbiao">#ffffff</color>
+    <color name="xiahuaxian">#ffffff</color>
+</resources>

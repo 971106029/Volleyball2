@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#cee002</item>
+        <item name="colorPrimaryDark">#cee002</item>
+        <item name="colorAccent">#cee002</item>
+    </style>
+    <style name="startCartoon" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/denglu_back</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="MyEditText" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/guangbiao</item>
+        <item name="colorControlActivated">@color/xiahuaxian</item>
+    </style>
+
+</resources>

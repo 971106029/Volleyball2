@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#cee002"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com2x3b4p.example.volleyball.Activity_data_all">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1">
+            <LinearLayout
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/textView_dataall_xiaojubifen_1"
+                        android:text="00"
+                        android:gravity="center"
+                        android:textSize="40sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:gravity="center"
+                        android:text="凤凰队"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp" />
+                </LinearLayout>
+
+                <TextView
+                    android:textSize="50dp"
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text=":" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="120dp"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/textView_dataall_xiaojubifen_2"
+                        android:text="00"
+                        android:gravity="center"
+                        android:textSize="40sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"/>
+                    <TextView
+                        android:gravity="center"
+                        android:text="太行队"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5">
+                <TextView
+                    android:textColor="#537af7"
+                    android:id="@+id/data_all_huiheshu"
+                    android:gravity="right"
+                    android:layout_gravity="center"
+                    android:text="第4局"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.5"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.7">
+                <TextView
+                    android:gravity="left"
+                    android:layout_gravity="center_vertical"
+                    android:text="比赛数据统计"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.7"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="2dp"
+                android:background="@drawable/shape_anjian"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2">
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <Button
+                        android:id="@+id/data_all_shangyiju"
+                        android:background="@drawable/jiantou_zuo"
+                        android:layout_centerInParent="true"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <Button
+                        android:id="@+id/data_all_xiayiju"
+                        android:background="@drawable/jiantou_you"
+                        android:layout_centerInParent="true"
+                        android:layout_width="25dp"
+                        android:layout_height="25dp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:foreground = "?attr/selectableItemBackground"
+        android:id="@+id/person_data_recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

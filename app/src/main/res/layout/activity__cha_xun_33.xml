@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+
+    tools:context="com2x3b4p.example.volleyball.Activity_ChaXun_1">
+    <LinearLayout
+        android:scaleType="centerCrop"
+        android:orientation="vertical"
+        android:background="@drawable/find_back"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+        <LinearLayout
+            android:background="#a4ffffff"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3.4">
+                <TextView
+                    android:textSize="17sp"
+                    android:gravity="center"
+                    android:text="按队员姓名查找"
+                    android:layout_marginTop="25dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/shape_search"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+                <EditText
+                    android:gravity="center"
+                    android:id="@+id/login_passWord_Edit_text"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center_vertical"
+                    android:background="@null"
+                    android:hint="请输入队员姓名"
+                    android:maxLines="1"
+                    android:textSize="15sp" />
+                <Button
+                    android:layout_gravity="center"
+                    android:layout_marginRight="13dp"
+                    android:background="@drawable/tubiao_seach"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:background="#cee002"
+        android:padding="13dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3">
+        <android.support.v7.widget.RecyclerView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
+
+</LinearLayout>

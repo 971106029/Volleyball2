@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#e6e6e6"
+    android:layout_height="match_parent"
+    tools:context="com2x3b4p.example.volleyball.Activity_JiLu_2">
+
+    <TextView
+        android:text="参赛队员信息"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="5dp" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/cansaiduiyuan_recycler_view"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></android.support.v7.widget.RecyclerView>
+
+    <Button
+
+        android:id="@+id/button_kaishijilu"
+        android:text="开始记录"
+        android:textSize="20dp"
+        android:textColor="#3e3d3d"
+        android:layout_margin="5dp"
+        android:background="@drawable/shape_search"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" />
+
+</LinearLayout>
